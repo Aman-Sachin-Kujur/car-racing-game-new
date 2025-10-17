@@ -1,48 +1,35 @@
-# Arcade Racer
+# Road Rush: Power-Up Edition
 
-Welcome to Arcade Racer, a classic top-down 2D car racing game built entirely with HTML5 Canvas, CSS (Tailwind CSS), and vanilla JavaScript. Dodge incoming traffic, increase your score, and aim for the high score in this fast-paced arcade experience!
+## Description
+Road Rush: Power-Up Edition is an exhilarating, fast-paced arcade-style browser game where players must navigate a busy highway, dodging a variety of obstacles while strategically collecting power-ups to enhance their survival and score. Featuring a dynamic scoring system and responsive controls, this game offers an engaging experience across desktop and mobile devices. Now with more varied obstacles and exciting new power-ups!
 
 ## Features
 
--   **Classic Arcade Gameplay:** Enjoy simple yet addictive racing action.
--   **Intuitive Controls:** Move your car left and right with arrow keys or A/D.
--   **Procedural Generation:** Randomly generated opponent cars and obstacles for endless replayability.
--   **Dynamic Difficulty:** Game speed gradually increases as your score climbs, keeping you on your toes.
--   **Collision Detection:** Game over if you hit an obstacle, adding a challenge.
--   **Scoring System:** Track your performance with an ever-increasing score counter.
--   **High Score Tracking:** Your best score is saved locally using `localStorage`.
--   **Visual Feedback:** Scrolling road with lane markings creates a compelling illusion of movement.
--   **Engaging UI:** Clear score and speed displays, and a distinct game over screen.
--   **Sound Effects:** Basic engine sound and collision sound enhance the arcade feel.
--   **Responsive Design:** Optimized for a great experience on desktop browsers.
--   **Modern Styling:** Clean and colorful graphics powered by Tailwind CSS.
+*   **Responsive Design**: Built with Tailwind CSS, ensuring a seamless experience on any screen size.
+*   **Intuitive Controls**: Move with arrow keys/WASD on desktop or tap left/right on touch devices.
+*   **Dynamic Difficulty**: Game speed and obstacle frequency increase as your score climbs.
+*   **Varied Obstacles**: Encounter standard cars, larger trucks, and nimble motorcycles, each posing a unique challenge.
+*   **Exciting Power-Ups**:
+    *   ⭐ **Speed Boost**: Temporarily increases your car's speed for rapid maneuvers.
+    *   🛡️ **Shield**: Grants temporary invincibility, allowing you to pass through obstacles unharmed.
+    *   ⌚ **Slow-motion**: Slows down all in-game elements, giving you more time to react and plan.
+*   **Active Power-Up Indicators**: Visual cues display active power-ups and their remaining duration.
+*   **Clear Game Over Screen**: Displays your final score and offers a quick restart option.
+*   **Score Tracking**: Compete against yourself to beat your high score.
 
-## How to Play
+## Usage
 
-1.  **Open `index.html`:** Simply open the `index.html` file in your web browser.
-2.  **Start the Game:** Click the "START GAME" button on the welcome screen.
-3.  **Control Your Car:**
-    *   Press the **Left Arrow key (←)** or **A key** to move your car left.
-    *   Press the **Right Arrow key (→)** or **D key** to move your car right.
-4.  **Objective:** Your car moves forward automatically. Your goal is to dodge the oncoming obstacle cars for as long as possible. The longer you survive, the higher your score will be, and the faster the game will get!
-5.  **Game Over:** If you collide with an obstacle, the game ends. Your final score will be displayed, along with the current high score.
-6.  **Restart:** Click the "RESTART" button to play again and try to beat your high score!
+To play Road Rush: Power-Up Edition, simply open the `index.html` file in any modern web browser.
 
-## Technologies Used
+### Controls
 
-*   **HTML5:** Structure of the web page.
-*   **CSS (Tailwind CSS CDN):** For responsive design and modern styling of UI elements.
-*   **JavaScript (Vanilla):** Game logic, interaction, and Canvas drawing.
-*   **HTML5 Canvas API:** For rendering all game graphics (road, cars, lane lines).
-*   **Web Audio API:** For dynamic sound effects (engine, collision).
+*   **Desktop**: Use the **Arrow Left** / **A** keys to move left, and **Arrow Right** / **D** keys to move right.
+*   **Touch Devices**: Tap on the **left half of the screen** to move left, and the **right half of the screen** to move right.
 
-## Development Notes
+## Development
 
-*   The game assets are drawn programmatically using Canvas API primitives (rectangles, rounded rectangles).
-*   `requestAnimationFrame` is used for a smooth 60fps animation loop.
-*   Collision detection is implemented using Axis-Aligned Bounding Box (AABB) method.
-*   High score is persistent across browser sessions using `localStorage`.
+This project is a single-file web application, making it easy to set up and run. All HTML, CSS (via Tailwind CSS CDN), and JavaScript are contained within `index.html`.
 
 ## License
 
-This project is open-sourced under the MIT License. See the `LICENSE` file for full details.
+This project is open-source and available under the MIT License. See the `LICENSE` file for more details.
